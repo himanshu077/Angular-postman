@@ -1,0 +1,234 @@
+/* You can add global styles to this file, and also import other style files */
+ul.navbar-nav.d-flex {
+    width: 100%;
+}
+a {
+    text-decoration: none !important;
+}
+.navigation-bar {
+    background: #24292E !important;
+    padding-left: 150px;
+}
+
+.dropdown-menu.deploy-div.show {
+    background: #24292e;
+    color: white;
+    border-radius: 0;
+    border: none;
+    top: 115%;
+    border-top: 1px solid #b1adad;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: unset;
+    width: 230px !IMPORTANT;
+    right: -25px;
+}
+*{
+    outline: none;
+}
+.deplay-menu > p {
+    color: #FFFFFF;
+    opacity: 0.56;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 5px;
+}
+
+form.row {
+    width: 100%;
+}
+
+.deplay-menu * {
+    font-size: 14px;
+    color: gainsboro;
+}
+
+button.btn.btn-light {
+    color: black;
+}
+
+label.deploy-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input.deploy-input {
+    margin-right: 5px;
+}
+
+label.deploy-label {
+    margin-right: 5px;
+}
+
+label.deploy-label span {
+    min-width: 30px;
+    text-align: right;
+}
+img.logo {
+    width: auto;
+    height: 40px;
+}
+.sidenav {
+    height: calc(100vh - 66px);
+    border-right: 2px solid #E0E0E0;
+    padding: 0 !important;
+    background: white;
+}
+.sidenav a {
+    width: 100%;
+    display: block;
+    font-family: Roboto Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: black;
+    padding: 15px;
+
+    border-bottom: 1px solid gainsboro;
+}
+.right-sidenav {
+    height: calc(100vh - 66px);
+    border-left: 2px solid #E0E0E0;
+    padding: 0 !important;
+    background: white;
+}
+.navigation-bar ul li a {
+    font-weight: 300;
+    color: white !important;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.section-div {
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+.section-div.icon-grid {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: gray;
+}
+.section-div.icon-grid a {
+    color: #828282;
+    padding: 5px;
+
+    margin-left: 10px;
+    font-size: 14px;
+    width: 30px;
+    display: inline-block;
+}
+.section-div.icon-grid a:hover {
+
+    background: #F2F2F2;
+
+}
+.icon-div a {
+    margin-left: 0px !important;
+}
+.icon-div  {
+    margin-left: 30px !important;
+}
+p.section-div-heading {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+select.operation-select {
+    background: #E0E0E0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+table.operation-table {
+    background: #F2F2F2;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+tr.operation-th {
+    background: #C4C4C4;
+}
+table.operation-table td,table.operation-table th{
+    padding: 5px;
+}
+table.operation-table td, table.operation-table th {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+img.flow {
+    width: 100%;
+}
+ul.ml-auto.left-deploy {
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .navigation-bar {
+        background: #24292E !important;
+        padding-left: 15px;
+    }
+    .sidenav {
+        height: auto;
+        border-right: none;
+        padding: 0 !important;
+        background: white;
+    }
+    .right-sidenav {
+        height: auto;
+        border-left: none;
+        padding: 0 !important;
+        background: white;
+        padding-bottom: 50px !important;
+    }
+    .section-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .section-div.icon-grid a {
+        color: #828282;
+        padding: 5px;
+        margin-left: 0;
+        font-size: 14px;
+        width: 30px;
+        display: inline-block;
+    }
+    .section-div:last-child {
+        display: block;
+    }
+    select.operation-select {
+        text-align: left;
+        display: block;
+    }
+    ul.ml-auto.left-deploy {
+        display: block;
+        margin-left: 0 !important;
+        padding-left: 0;
+    }
+    .dropdown-menu.deploy-div.show {
+        background: #1b2126;
+        color: white;
+        border-radius: 0;
+        border: none;
+        top: 115%;
+        border-top: 1px solid #b1adad;
+        box-shadow: 0 0 black;
+        left: unset;
+        width: 95% !IMPORTANT;
+        right: -25px;
+        margin: auto;
+    }
+    .row {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
